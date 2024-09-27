@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A[Project Initiation] --> B[Planning and Definition]
+    B --> C[Design and Development]
+    C --> D[Process Validation]
+    D --> E[Production and Delivery]
+    E --> F[Project Closure]
+
+    A --> A1[Receive RFQ]
+    A1 --> A2[Gather Customer Requirements]
+    A2 --> A3[Conduct Feasibility Analysis]
+    A3 --> A4[Develop Initial Project Plan]
+    A4 --> A5[Provide Technical Inputs and Cost Estimation]
+    A5 --> A6[Submit Quote]
+    A6 --> A7[Allocate Project to PM]
+
+    B --> B1[Conduct Kick-off Meeting]
+    B1 --> B2[Define Project Scope, Objectives, and Deliverables]
+    B2 --> B3[Develop Detailed Project Plans]
+    B3 --> B4[Create Bill of Materials (BOM)]
+    B4 --> B5[Prepare Requirement Development Sheet and Sign-off]
+    B5 --> B6[Appoint Team Members and Secure Resources]
+
+    C --> C1[Design Injection Moulds, Jigs, Fixtures]
+    C1 --> C2[Conduct Technical Reviews and Approvals]
+    C2 --> C3[Develop Prototype Parts]
+    C3 --> C4[Conduct Initial Trials and Technical Try-outs]
+    C4 --> C5[Validate Design through Trials and Testing]
+
+    D --> D1[Conduct Process Validation Trials]
+    D1 --> D2[Establish Process Capability (Initial MSP)]
+    D2 --> D3[Prepare Quality Proving Documents]
+    D3 --> D4[Conduct Initial Process Capability Studies]
+    D4 --> D5[Submit PPAP and PSW for Customer Approval]
+
+    E --> E1[Begin Production as per Validated Process]
+    E1 --> E2[Monitor Production and Address Issues]
+    E2 --> E3[Track Delivery Schedules]
+    E3 --> E4[Ensure Timely Delivery to Customer]
+    E4 --> E5[Conduct Final Gate Reviews]
+    E5 --> E6[Obtain Final Sign-off from Customer]
+
+    F --> F1[Conduct Final Project Review Meeting]
+    F1 --> F2[Document Lessons Learned and Best Practices]
+    F2 --> F3[Archive Project Documents and Reports]
+    F3 --> F4[Conduct Team Debrief]
+    F4 --> F5[Recognize and Reward Team Members]
